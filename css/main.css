@@ -1,0 +1,254 @@
+/*
+
+Styles for stephenphelan.co.uk
+
+-------------------------------------------------------------- */
+
+
+/*layout elements*/
+html {
+    background: url('../images/navy_blue.png') transparent;
+    /*color: #F8F8F8;*/
+    margin-top: 16px; !important
+}
+body {
+	background: none;
+	color: #444;
+	text-shadow: none;
+}
+.wrapper {
+	background-color: #FFF;
+}
+.moby-img {
+	background: url('../images/whale.png') no-repeat;
+	width: 400px;
+	height: 158px;
+	margin-left: 548px;
+	opacity: 0.8;
+}
+.title {
+	font-family: 'Sorts Mill Goudy',Georgia, sans;
+	padding-left: 12px;
+	    margin-top: -112px;	
+}
+div#site-description {
+	text-align: left;
+    color: #444;  
+	/*font-size: 18px;*/
+}
+#site-title {
+}
+#site-title a,
+div#site-description {
+    font-size: 2.5rem;
+    /*font-style: italic;*/
+}
+#site-title a {
+	color: #d50024;
+	text-decoration: none;
+}
+#site-title a:hover {
+	color: #444;
+}
+#sub-tagline {
+	font-size: 14px;
+	font-style: italic;
+    margin-top: 16px;
+}
+#contact-icons {
+	float:right;
+	font-size:24px;
+	line-height:42px;
+	margin-right:62px;
+	/*margin-top:-18px;*/
+}
+.icons {
+	margin-top: 10px;
+}
+#contact-icons a {
+	color: #d50024;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 4px;
+}
+#contact-icons a:hover {
+	color: #555;	
+}
+/* nav menu */
+.main-navigation {
+	margin-top: 0.1rem;
+}
+.main-navigation ul {
+	display: block;
+/*	text-align: center;
+	text-transform: uppercase;
+	margin: 14px 0;
+*/	border-bottom: 1px solid #BBBBBB;
+	padding-bottom: 8px;
+}
+.main-navigation li {
+	display: inline-block;
+	padding: 0 24px;
+}
+.main-navigation li a {
+	text-decoration: none;
+	color: #BBB;
+	font-family: 'Sorts Mill Goudy','Droid Serif',Georgia,sans;
+	font-size: 1.1rem;
+}
+.main-navigation li a:hover,
+.current-menu-item,
+li.current_page_item  a {
+	color: #d50024;
+}
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 14px 0;
+}
+.main-navigation li ul li {
+	background-color: #fff;
+	border-left: 1px dotted #d50024;
+	border-right: 1px dotted #d50024;
+}
+.main-navigation li ul li a {
+		background: #fff;
+		color: #666;
+		border-bottom: 1px dotted #d50024;
+		font-size: 1rem;
+	}
+.main-navigation li ul li a:hover {
+		color: #d50024;
+	}
+/* posts */
+article {
+	margin: 10px 0 0 0;
+}
+#content h1.entry-title, 
+#content h1.page-title, 
+#content h2.entry-title,
+#content h5.article-info   {
+	font-family: 'Sorts Mill Goudy','Droid Serif', OFLSortsMillGoudyItalic, Georgia, sans;
+	text-align: center;	
+}
+#content h1.entry-title,
+#content h2.entry-title {
+	margin: 0;
+}
+#content h2.entry-title {
+	font-size: 36px;
+}
+#content h2.entry-title a {
+	color: #444;
+}
+#content h2.entry-title a:hover {
+	color: #d50024;
+}
+#content a {
+	text-decoration: none;
+}
+#content h5 {
+    /*border-bottom: 1px dotted #BBBBBB;*/
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0 15px;
+    padding-bottom: 16px;
+}
+.site-content article {
+	margin-bottom: 0.2rem;
+	border-bottom: none;
+}
+.entry-content,
+.comments-area {
+	margin: 0 100px;
+}
+#respond {
+	margin-top: 0.5rem;
+}
+p {
+	font-family: 'Nobile', Helvetica, sans;
+	line-height: 26px;
+	text-align: justify;
+}
+.art-icon {
+	text-align: center;
+}
+.articles>p:nth-of-type(1):first-letter { 
+    color: #666666;
+    float: left;
+    font-family: 'Sorts Mill Goudy','Droid Serif',Georgia;
+    font-size: 350%;
+    line-height: 50px;
+    /*margin: 6px;*/
+    position: relative;
+    top: 2%;
+    margin-right: 3px;
+}
+.swirl {
+	background: url('../images/swirl.png') no-repeat;
+    height: 46px;
+    margin: -12px auto 40px;
+    width: 107px;
+}
+.leaf {
+	background: url('../images/leaf.png') no-repeat;
+    height: 32px;
+    margin: -30px auto auto;
+    width: 172px;
+}
+.swirl,
+.leaf {
+	opacity: 1;
+}
+.art-cat-header {
+	text-align: center;
+}
+.art-cat-header h4 {
+    font-family: 'Sorts Mill Goudy','Droid Serif',Georgia;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+/*images*/
+.wp-caption {
+	border: 1px solid #EEEEEE;
+	margin-bottom: 0;
+}
+.cat-list li {
+	font-size: 26px;
+	text-align: center;
+	line-height: 36px;
+	color: #777;
+}
+.cat-list li a {
+	text-decoration: none;
+}
+.nav-previous,
+.nav-next {
+	margin-bottom: 10px;
+	font-family: 'Sorts Mill Goudy','Droid Serif',Georgia;
+	text-transform: uppercase;
+}
+.nav-previous {
+	margin-left: 80px;
+}
+.nav-next {
+	margin-right: 80px;
+}
+/*footer*/
+#footer {
+	border-radius: 4px;
+}
+.push, #footer {
+	height: 50px;
+		margin-bottom: 6px;
+}
+#footer p {
+	text-align: center;
+	color: #bbb;
+	font-size: 12px;
+	margin: 0;
+}
+
+
